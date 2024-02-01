@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- Link for the css reset  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <!-- Linking the stylesheet -->
+  <link rel="stylesheet" href="assets/css/stylesheet.css" />
+
+  <!-- Linking the Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="header-container container">
+
+    <div class="header-left">
+
+      <a href="index.html">
+        <div class="logo">
+          <img src="assets/images/logo/bookmyshow-logo-vector.png" alt="" />
+        </div>
+      </a>
+      <div class="big-header">
+        <div class="search-input">
+          <div class="row">
+            <span class="fa fa-search search-button"></span>
+            <input class="search" type="search" id="search" placeholder="Search for Movies " autocomplete="off" />
+          </div>
+          <div class="suggest-box">
+          </div>
+        </div>
+        <select class="selection genres-selection" name="genres" id="genres">
+          <option value="" disabled="" selected="selected" hidden="">SELECT GENRES</option>
+        </select>
+        <select class="selection ratings-selection" name="ratings" id="ratings">
+          <option value="" disabled="" selected="selected" hidden="">SELECT RATINGS</option>
+          <option value="1-2" id="ratings-1">1-2</option>
+          <option value="2-3" id="ratings-2">2-3</option>
+          <option value="3-4" id="ratings-3">3-4</option>
+          <option value="4-5" id="ratings-4">4-5</option>
+          <option value="5-6" id="ratings-5">5-6</option>
+          <option value="6-7" id="ratings-6">6-7</option>
+          <option value="7-8" id="ratings-7">7-8</option>
+          <option value="8-9" id="ratings-8">8-9</option>
+          <option value="9-10" id="ratings-9">9-10</option>
+        </select>
+      </div>
+
+      <div class="button desktop-button">
+        <button class="btn">LOGIN</button>
+      </div>
+    </div>
+
+    <!-- <div class="small-header">
+      <div class="search-input">
+        <div class="row">
+          <span class="fa fa-search search-button"></span>
+          <input class="search" type="search" id="search" placeholder="Search for Movies " autocomplete="off" />
+        </div>
+        <div class="suggest-box">
+        </div>
+      </div>
+      <select class="selection genres-selection" name="genres" id="genres">
+        <option value="" disabled="" selected="selected" hidden="">SELECT GENRES</option>
+      </select>
+      <select class="selection ratings-selection" name="ratings" id="ratings">
+        <option value="" disabled="" selected="selected" hidden="">SELECT RATINGS</option>
+        <option value="1-2" id="ratings-1">1-2</option>
+        <option value="2-3" id="ratings-2">2-3</option>
+        <option value="3-4" id="ratings-3">3-4</option>
+        <option value="4-5" id="ratings-4">4-5</option>
+        <option value="5-6" id="ratings-5">5-6</option>
+        <option value="6-7" id="ratings-6">6-7</option>
+        <option value="7-8" id="ratings-7">7-8</option>
+        <option value="8-9" id="ratings-8">8-9</option>
+        <option value="9-10" id="ratings-9">9-10</option>
+      </select>
+    </div> -->
+  </header>
+
+  <div class="popup-container">
+    <div class="popup">
+      <div class="popup_top">
+        <div class="popup_top_div">
+          <div class="popup_top_text">
+            Get Started
+          </div>
+          <div class="popup_close">
+            <svg width="15" height="15" xmlns="http://www.w3.org/2000/svg">
+              <title>Close</title>
+              <g fill="#666">
+                <path d="M13.125 0l-7.5 7.5 7.5 7.5 1.429-1.428L8.482 7.5l6.072-6.071z"></path>
+                <path d="M1.429 0l7.5 7.5-7.5 7.5-1.43-1.428L6.072 7.5 0 1.43z"></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="popup_main">
+
+      </div>
+    </div>
+  </div>
+  <!-- <script src="assets/js/index.js"></script> -->
+</body>
+
+</html>
